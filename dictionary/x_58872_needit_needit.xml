@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="bal" max_length="120" name="balance" type="integer"/>
+        <element label="field" max_length="32" name="field" reference="cmdb_ip_service_ci" type="string"/>
+    </element>
+</database>
